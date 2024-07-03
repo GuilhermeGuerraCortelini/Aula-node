@@ -1,1 +1,1 @@
-INSERT INTO pessoas (nome) VALUES  ("Guilherme Guerra");
+INSERT INTO pessoas (nome, sobrenome) VALUES  ("Guilherme", "Guerra"), ("Eduardo", "Marcolin");

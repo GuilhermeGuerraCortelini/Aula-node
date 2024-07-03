@@ -1,0 +1,5 @@
+Criar um novo projeto: npm create vite@latest
+
+Instalar as dependências: npm install 
+
+Executar o projeto: npm run dev

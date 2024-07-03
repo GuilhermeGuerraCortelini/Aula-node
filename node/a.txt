@@ -17,10 +17,13 @@ describe pessoas ;
 
 pasta _doc/schema.sql:
 
+sempre executar schema.sql antes para não duplicar dados
+
 source ./_doc/schema.sql
 describe pessoas ;
 
 source ./_doc/data.sql
 select * from pessoas;
 
+Terminal 3:
 npm install mysql2

@@ -1,7 +1,6 @@
 {
   "name": "node",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js"
@@ -15,5 +14,6 @@
   "dependencies": {
     "express": "^4.19.2",
     "mysql2": "^3.9.3"
-  }
+  },
+  "description": ""
 }
