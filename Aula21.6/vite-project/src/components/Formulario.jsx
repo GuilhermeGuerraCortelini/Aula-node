@@ -9,8 +9,11 @@ const Formulario = () => {
         nome: '', email: ''
     })
 
-    const handleChange = ({name, value}) => setPessoa({...pessoa, [name]: value})
-
+    const handleChange = ({name, value}) => {
+        setPessoa({...pessoa, [name]: value})
+        digitando()
+    }
+    
     // const [nome, setNome] = useState("")
     // const [email, setEmail] = useState("")
 

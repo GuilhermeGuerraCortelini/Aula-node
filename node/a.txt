@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Terminal 1:
 npm init -y // instala o package.json
 npm install nodemon -D // somente no ambiente de desenvolvmento (-D) (node_modules)
@@ -26,4 +27,34 @@ source ./_doc/data.sql
 select * from pessoas;
 
 Terminal 3:
+=======
+Terminal 1:
+npm init -y // instala o package.json
+npm install nodemon -D // somente no ambiente de desenvolvmento (-D) (node_modules)
+node_modules // dependecias do projeto 
+npm install express // instala a dependencia express
+dev": "nodemon index.js" // no package.json script
+npm run dev // rodar automatico
+
+Terminal 2:
+mysql -h localhost -u root -p // colocar nas variaveis de ambiente C:\xampp\mysql\bin
+show databases ; 
+create database aula0104 ;
+use aula0104 ; 
+show tables ;
+create table pessoas (id int not null auto_increment, nome varchar(100) not null, primary key (id)) ;
+describe pessoas ;
+
+pasta _doc/schema.sql:
+
+sempre executar schema.sql antes para não duplicar dados
+
+source ./_doc/schema.sql
+describe pessoas ;
+
+source ./_doc/data.sql
+select * from pessoas;
+
+Terminal 3:
+>>>>>>> 7ea2ca513e3deed09a49e6ae66291500b1882d02
 npm install mysql2
